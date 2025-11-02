@@ -3,9 +3,7 @@
   "description": "Console music player in Node.",
   "version": "2.0.8",
   "author": {
-    "email": "zac@zacanger.com",
-    "name": "Zac Anger",
-    "url": "http://zacanger.com"
+    "name": "zautumnz"
   },
   "license": "LGPL-3.0",
   "main": "index.js",
@@ -27,12 +25,12 @@
     "test:lint": "eslint -c .eslintrc.json src",
     "test:tape": "babel-tape-runner src/*.test.js | tap-spec"
   },
-  "homepage": "https://github.com/zacanger/angrplayr#readme",
+  "homepage": "https://github.com/zautumnz/angrplayr#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zacanger/angrplayr.git"
+    "url": "https://github.com/zautumnz/angrplayr.git"
   },
-  "bugs": "https://github.com/zacanger/angrplayr/issues",
+  "bugs": "https://github.com/zautumnz/angrplayr/issues",
   "keywords": [
     "angrplayr",
     "audio",
@@ -40,8 +38,7 @@
     "mp3",
     "music",
     "player",
-    "terminal",
-    "zacanger"
+    "terminal"
   ],
   "dependencies": {
     "@babel/register": "7.8.3",
@@ -65,7 +62,6 @@
     "babel-eslint": "10.0.3",
     "babel-tape-runner": "3.0.0",
     "eslint": "6.8.0",
-    "eslint-plugin-zacanger": "0.0.3",
     "nyc": "15.0.0",
     "prettier": "1.19.1",
     "sortpack": "2.0.4",
@@ -89,9 +85,5 @@
       "@babel/register"
     ],
     "sourceMap": true
-  },
-  "funding": {
-    "type": "ko-fi",
-    "url": "https://ko-fi.com/zacanger"
   }
 }

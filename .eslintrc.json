@@ -1,12 +1,8 @@
 {
   "root": true,
   "plugins": [
-    "zacanger"
   ],
   "extends": [
-    "plugin:zacanger/recommended",
-    "plugin:zacanger/react",
-    "plugin:zacanger/prettier"
   ],
   "env": {
     "node": true
